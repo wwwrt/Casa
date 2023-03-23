@@ -51,9 +51,9 @@ strokeWeight(4);
 ellipse(300, 450, 10, 10);
 
 // horn
-push(); // salveaza starea curenta a transformarii
-translate(250, 100); // muta originea la noua pozitie pentru horn
-scale(0.8); // scade marimea hornului
+push(); 
+translate(250, 100); 
+scale(0.8); 
 fill("#95a5a6");
 strokeWeight(4);
 stroke("#7f8c8d");
@@ -63,7 +63,7 @@ stroke("#bdc3c7");
 line(20, 0, 20, -20);
 line(60, 0, 60, -20);
 line(40, -20, 40, -30);
-pop(); // revine la starea initiala a transformarii
+pop(); 
 
 // balcon lateral
 fill("#f0e68c");
@@ -75,4 +75,19 @@ strokeWeight(2);
 stroke("#2e8b57");
 rect(450, 255, 60, 20);
 
+// centrare fum horn
+translate(280, 80);
+
+// fum horn
+noStroke();
+fill("#bdc3c7");
+ellipse(0, 0, 50, 40);
+fill("#d6d6d6");
+ellipse(0, -20, 30, 10);
+fill("#ffffff");
+ellipse(0, -20, 20, 5);
+fill("#d6d6d6");
+ellipse(0, -25, 15, 5);
+fill("#bdc3c7");
+ellipse(0, -28, 10, 5);
 }
