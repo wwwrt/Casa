@@ -41,4 +41,28 @@ strokeWeight(4);
 line(360, 280, 360, 380);
 line(320, 330, 400, 330);
 
+// ușă
+fill("#e67e22");
+strokeWeight(2);
+stroke("#d35400");
+rect(280, 400, 40, 100);
+fill("#ecf0f1");
+strokeWeight(4);
+ellipse(300, 450, 10, 10);
+
+// horn
+push(); // salveaza starea curenta a transformarii
+translate(250, 100); // muta originea la noua pozitie pentru horn
+scale(0.8); // scade marimea hornului
+fill("#95a5a6");
+strokeWeight(4);
+stroke("#7f8c8d");
+rect(0, 0, 80, 80);
+strokeWeight(2);
+stroke("#bdc3c7");
+line(20, 0, 20, -20);
+line(60, 0, 60, -20);
+line(40, -20, 40, -30);
+pop(); // revine la starea initiala a transformarii
+
 }
