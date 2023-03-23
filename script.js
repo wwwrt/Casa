@@ -23,4 +23,22 @@ strokeWeight(4);
 stroke("#c0392b");
 triangle(150, 200, 450, 200, 300, 100);
 
+// fereastră stânga
+fill("#ecf0f1");
+strokeWeight(2);
+stroke("#bdc3c7");
+rect(200, 280, 80, 100);
+strokeWeight(4);
+line(240, 280, 240, 380);
+line(200, 330, 280, 330);
+
+// fereastră dreapta
+fill("#ecf0f1");
+strokeWeight(2);
+stroke("#bdc3c7");
+rect(320, 280, 80, 100);
+strokeWeight(4);
+line(360, 280, 360, 380);
+line(320, 330, 400, 330);
+
 }
