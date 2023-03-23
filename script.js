@@ -65,4 +65,14 @@ line(60, 0, 60, -20);
 line(40, -20, 40, -30);
 pop(); // revine la starea initiala a transformarii
 
+// balcon lateral
+fill("#f0e68c");
+strokeWeight(4);
+stroke("#b8860b");
+rect(440, 250, 80, 70);
+fill("#8fbc8f");
+strokeWeight(2);
+stroke("#2e8b57");
+rect(450, 255, 60, 20);
+
 }
